@@ -1,0 +1,3 @@
+conky -c /home/dobbie/.config/conky/conkyrc-workspace.conkyrc & sleep 1s
+conky -c /home/dobbie/.config/conky/AL-Ellipses-Time-Grey.conkyrc & sleep 1s
+conky -c /home/dobbie/.config/conky/CB-Right.conkyrc & sleep 1s

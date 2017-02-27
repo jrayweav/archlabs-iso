@@ -1,0 +1,12 @@
+<b>Configuration name: ARCHLabs</b>	
+Saved at Sat Feb 11 16:08:28 NZDT 2017
+
+X terminal config:  /home/dobbie/.bashrc;/home/dobbie/.Xresources\n
+Openbox theme:  Bunsen-Blue\n
+GTK theme:  ARCHLabs Bunsen GTK3\n
+Running Conkys:\t\n\t/home/dobbie/.config/conky/CB-Right.conkyrc;\n\t/home/dobbie/.config/conky/silver-logo.conkyrc;\n
+Running Tint2s:\t\n\tDefault Tint2\n
+Background set with nitrogen:\n/home/dobbie/Pictures/wallpapers/eHFJS.png;\n
+dmenu config:  /home/dobbie/.config/dmenu/dmenu-bind.sh\n
+Lightdm config:  /etc/lightdm/lightdm-gtk-greeter.conf\n
+al-exitrc config:  /home/dobbie/.config/al-exit/al-exitrc\n

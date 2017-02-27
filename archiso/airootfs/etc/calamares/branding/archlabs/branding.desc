@@ -1,0 +1,23 @@
+---
+componentName:  archlabs
+
+strings:
+    productName:         ARCHLabs
+    shortProductName:    ARCHLabs
+    version:             1.0
+    shortVersion:        1.0
+    versionedName:       ARCHLabs
+    shortVersionedName:  ARCHLabs
+    bootloaderEntryName: ARCHLabs
+
+images:
+    productLogo:         "squid.png"
+    productIcon:         "logo.png"
+    productWelcome:      "languages.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#292F34"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#292F34"

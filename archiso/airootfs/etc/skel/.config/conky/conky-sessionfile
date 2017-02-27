@@ -1,0 +1,2 @@
+conky -c /home/dobbie/.config/conky/AL-Left.conkyrc & sleep 1s
+conky -c /home/dobbie/.config/conky/silver-logo.conkyrc & sleep 1s
