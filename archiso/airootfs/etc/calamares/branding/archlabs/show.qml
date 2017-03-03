@@ -50,4 +50,45 @@ Presentation
             horizontalAlignment: Text.Center
         }
     }
+
+    Slide {
+
+        Image {
+            id: background2
+            source: "slide2.png"
+            width: 500; height: 275
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+        Text {
+            anchors.horizontalCenter: background2.horizontalCenter
+            anchors.top: background2.bottom
+            text: "ARCHLabs features the lightning fast openbox menu,<br/>"+
+                  "customized to provide amazing functionality."
+            wrapMode: Text.WordWrap
+            width: 600
+            horizontalAlignment: Text.Center
+        }
+    }
+
+    Slide {
+
+        Image {
+            id: background3
+            source: "slide3.png"
+            width: 500; height: 275
+            fillMode: Image.PreserveAspectFit
+            anchors.centerIn: parent
+        }
+        Text {
+            anchors.horizontalCenter: background3.horizontalCenter
+            anchors.top: background3.bottom
+            text: "With incredible theming, and the power of Arch Linux,<br/>"+
+                  "ARCHLabs provides a lightning fast, extremely powerful,<br/>"+
+									"and stunning desktop experience."
+            wrapMode: Text.WordWrap
+            width: 600
+            horizontalAlignment: Text.Center
+        }
+    }
 }

@@ -48,7 +48,8 @@ fi
 menuStart
 menuSeparator 'Online Help'
 menuSeparator
-menuItem 'Forum Basic Help & Support' 'chromium "https://plus.google.com/u/0/communities/101475477052908495908"'
+menuItem 'ARCHLabs Forum Homepage' 'chromium "http://archlabs.prophpbb.com/"'
+menuItem 'Forum Basic Help & Support' 'chromium "http://archlabs.prophpbb.com/forum7.html"'
 menuItem 'Scripts, Tutorials & Tips' 'chromium "https://bbs.archlinux.org/viewforum.php?id=33"'
 
 menuSeparator
@@ -74,13 +75,14 @@ menuSubmenu 'Tint2WWW' 'Tint2'
 menuItem 'Tint2 Wiki: FAQ' 'chromium "https://gitlab.com/o9000/tint2/wikis/FAQ"'
 menuItem 'Tint2 Wiki: Configuration' 'chromium "https://gitlab.com/o9000/tint2/blob/master/doc/tint2.md"'
 menuItem 'Tint2 Forum Thread' 'chromium "https://forums.bunsenlabs.org/viewtopic.php?id=254"'
-menuItem 'Tint2 man page' 'termite -T "Tint2 man page" -e man tint2'
+menuItem 'Tint2 man page' 'urxvt -T "Tint2 man page" -e man tint2'
 menuSubmenuEnd
 
 menuSubmenu 'ConkyWWW' 'Conky'
 menuItem 'Conky Wiki' 'chromium "https://github.com/brndnmtthws/conky/wiki"'
 menuItem 'Conky Archive' 'chromium "http://crunchbang.org/forums/viewtopic.php?pid=371424"'
-menuItem 'Conky man pages' 'termite -T "Conky man page" -e man conky'
+menuItem 'Conky Reddit' 'chromium "https://www.reddit.com/r/conky/"'
+menuItem 'Conky man pages' 'urxvt -T "Conky man page" -e man conky'
 menuSubmenuEnd
 menuSeparator
 
@@ -95,15 +97,10 @@ menuItem 'nixers.net' 'chromium "http://nixers.net/"'
 menuSubmenuEnd
 
 menuSeparator 'man pages'
-menuItem 'Compositor' 'termite -T "Compositor man page" -e man compton'
-menuItem 'dmenu' 'termite -T "dmenu man page" -e man dmenu'
-menuItem 'gmrun' 'termite -T "gmrun man page" -e man gmrun'
-menuItem 'xrandr' 'termite -T "xrandr man page" -e man xrandr'
+menuItem 'Compositor' 'urxvt -T "Compositor man page" -e man compton'
+menuItem 'dmenu' 'urxvt -T "dmenu man page" -e man dmenu'
+menuItem 'gmrun' 'urxvt -T "gmrun man page" -e man gmrun'
+menuItem 'xrandr' 'urxvt -T "xrandr man page" -e man xrandr'
 
-menuSeparator
-menuSubmenu 'ALhelp' 'ARCHLabs Help Files'
-menuItem 'How to Edit Menu' 'yad --button="OK":0 --center --window-icon=distributor-logo-archlabs --text-info --title="How to Edit the Menu" --filename="/usr/share/archlabs/docs/helpfile-menu.txt" --width=900 --height=700 --fontname=Monaco'
-menuItem 'Conkyzen Help' 'yad --button="OK":0 --center --window-icon=distributor-logo-archlabs --text-info --title="Conkyzen Help" --filename="/usr/share/archlabs/docs/helpfile-conkyzen.txt" --width=900 --height=700 --fontname=Monaco'
-menuSubmenuEnd
 
 menuEnd

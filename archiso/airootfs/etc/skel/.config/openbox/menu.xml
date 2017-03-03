@@ -336,13 +336,6 @@
                         </command>
 					</action>
 				</item>
-				<item label="How to Edit Menu">
-					<action name="Execute">
-						<command>
-                            yad --button=&quot;OK&quot;:0 --center --window-icon=distributor-logo-bunsenlabs --text-info --title=&quot;How to Edit the Menu&quot; --filename=&quot;/usr/share/bunsen/docs/helpfile-menu.txt&quot; --width=900 --height=700 --fontname=Monospace
-                        </command>
-					</action>
-				</item>
 				<separator/>
 				<item label="Reconfigure">
 					<action name="Reconfigure"/>
@@ -456,9 +449,8 @@
 			</menu>
 		</menu>
 		<menu id="system" label="System">
-			<menu execute="/usr/bin/al-printing-pipemenu" id="PrintingPipeMenu" label="Printers"/>
-			<menu id="install" label="ARCHLabs Extras">
-				<separator label="Install Scripts"/>
+			<menu id="install" label="ARCHLabs Extras One-By-One">
+				<separator label="Install OBO Scripts"/>
 				<item label="Install Audacious Player">
 				<action name="Execute">
 					<execute>termite -e /usr/bin/audacious.sh</execute>
@@ -570,11 +562,24 @@
 				</action>
 			</item>
 				</menu>
+				<menu id="installmenu" label="ARCHLabs Extras All-In-One">
+				<separator label="Install AIO Script"/>
+				<item label="Install All-In-One Script">
+				<action name="Execute">
+					<execute>urxvt -e /usr/bin/ARCHLabs-extras-AIO.sh</execute>
+				</action>
+			</item>
+			<item label="Edit All-In-One Script">
+				<action name="Execute">
+					<execute>gksudo geany /usr/bin/ARCHLabs-extras-AIO.sh</execute>
+				</action>
+			</item>
+				</menu>
 				<separator/>
-			<item label="Octopi Package Manager">
+			<item label="Pamac Package Manager">
 				<action name="Execute">
 					<command>
-                        octopi
+                        pamac-manager
                     </command>
 				</action>
 			</item>

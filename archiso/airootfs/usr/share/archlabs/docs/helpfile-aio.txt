@@ -1,0 +1,8 @@
+The AIO script was created to make it easy to install all the recommended
+applications for ARCHLabs.
+
+Some of these will require your attention as your direction is required
+to confirm or deny requests as some of these applications 
+are built from the AUR.
+
+You can edit and add or remove the applications as you see fit.
